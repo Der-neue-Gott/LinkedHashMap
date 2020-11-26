@@ -21,4 +21,15 @@ public class Message {
         this.readDate = readDate;
     }
 
+    @Override
+    public String toString() {
+        return "" +
+                "id=" + id +
+                ", msg='" + msg + '\'' +
+                ", sender='" + sender + '\'' +
+                ", receiver='" + receiver + '\'' +
+                ", sentDate=" + sentDate +
+                ", readDate=" + readDate;
+
+    }
 }
